@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Opgave_1">
+      <HintPath>..\..\..\Opgave_1\Opgave_1\bin\Debug\netcoreapp3.1\Opgave_1.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
